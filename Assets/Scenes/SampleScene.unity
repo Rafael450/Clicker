@@ -198,11 +198,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 1000
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 100
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
@@ -308,11 +308,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 1000000
+      value: 10000000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 100000
+      value: 1000000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
@@ -449,12 +449,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 460482254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2471a2a290b6cfa408815066ee34a9bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d0145afe0dffb948a6ee068f852b0e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currency: 0
-  textoDinheiro: {fileID: 1141721522}
-  coin: {fileID: 8368379154051812337, guid: 37f482f173a40ff4e8f1d7bc6778b73c, type: 3}
+  velocidade: 3
 --- !u!224 &472893730 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8142379765934970431, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
@@ -635,7 +633,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 590584568}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 499d21f8bf8163c4a85ee94e6219e0b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 22fe324c0c90d3f419785fef049c60ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   width: 500
@@ -649,11 +647,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 100000
+      value: 1000000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 10000
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
@@ -1209,11 +1207,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 100
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
@@ -1319,11 +1317,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 10000
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 1000
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
@@ -1561,6 +1559,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590584569}
     m_Modifications:
+    - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
+      propertyPath: precoBase
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
+      propertyPath: multiplicadorBase
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
       value: Painel_Proletario

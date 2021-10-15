@@ -198,11 +198,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 10000
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
@@ -418,7 +418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 460482255}
-  - component: {fileID: 460482256}
+  - component: {fileID: 460482257}
   m_Layer: 0
   m_Name: MoneyManager
   m_TagString: Untagged
@@ -440,7 +440,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &460482256
+--- !u!114 &460482257
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -449,10 +449,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 460482254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d0145afe0dffb948a6ee068f852b0e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 271be44443adcbf4d987c3b46a8b12ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 3
+  currency: 0
+  textoDinheiro: {fileID: 1141721522}
+  coin: {fileID: 8368379154051812337, guid: 37f482f173a40ff4e8f1d7bc6778b73c, type: 3}
 --- !u!224 &472893730 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8142379765934970431, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
@@ -647,11 +649,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 1000000
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 100000
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
@@ -1207,11 +1209,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
@@ -1317,11 +1319,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 100000
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 10000
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name
@@ -1561,11 +1563,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: precoBase
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970424, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: multiplicadorBase
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8142379765934970428, guid: 8e41984a87fee1a4f9ee020931246359, type: 3}
       propertyPath: m_Name

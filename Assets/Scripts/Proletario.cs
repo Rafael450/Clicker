@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 [System.Serializable]
 public class Proletario : MonoBehaviour
@@ -12,29 +13,39 @@ public class Proletario : MonoBehaviour
     private int multiplicadorBase;
 
     public int precoBase;
-    private int preco;
+    public float preco;
+    private float multiplicadorPreco = 1.1f;
+
+    public TextMeshProUGUI precoText;
 
     [HideInInspector]
     public Money money;
 
-    public void AumentaQuantidade(){
+    public void AumentaQuantidade()
+    {
         if (money.currency >= preco){
             quantidade++;
-            money.currency -= preco;
-            preco += precoBase;
+            money.currency -= (int) preco;
+            preco *= multiplicadorPreco;
+            AtualizaPreco();
         }
-        
+    }
+
+    void AtualizaPreco()
+    {
+        precoText.text = string.Concat("R$", ((int) preco).ToString());
     }
 
     void Start(){
         money = GameObject.Find("MoneyManager").GetComponent<Money>();
         preco = precoBase;
+        AtualizaPreco();
     }
 
     void Update(){
-        if (timeCounter >= 1f){
+        if (timeCounter >= 1f/(quantidade * multiplicadorBase)){
             timeCounter = 0f;
-            money.currency += quantidade * multiplicadorBase;
+            money.currency++;
         }
         timeCounter += Time.deltaTime;
     }
